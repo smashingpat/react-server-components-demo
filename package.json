@@ -1,0 +1,30 @@
+{
+  "name": "playground-nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "date-fns": "^2.30.0",
+    "flat-cache": "^3.1.1",
+    "marked": "^9.1.2",
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.1"
+  },
+  "volta": {
+    "node": "18.13.0",
+    "yarn": "1.22.19"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "@types/uuid": "^9.0.6",
+    "sass": "^1.69.4"
+  }
+}
