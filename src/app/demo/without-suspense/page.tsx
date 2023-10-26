@@ -2,11 +2,6 @@
 
 import React from "react";
 import { fetchArticle, fetchAuthor, fetchHobby } from "./fetchers";
-// import { createCache, useCacheValue } from "~src/lib/utils/suspenseStore";
-
-// const articleCache = createCache(fetchArticle);
-// const authorCache = createCache(fetchAuthor);
-// const hobbyCache = createCache(fetchHobby);
 
 // loading component
 function Loading() {

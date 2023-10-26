@@ -23,7 +23,8 @@ export default function RootLayout({ children }: React.PropsWithChildren<{}>) {
             </h1>
             <div style={{ display: "flex", gap: "1em" }}>
               <Link href="/demo/simple-suspense">demo #1</Link>
-              <Link href="/demo/suspense">demo #2</Link>
+              <Link href="/demo/without-suspense">demo #2</Link>
+              <Link href="/demo/with-suspense">demo #3</Link>
             </div>
           </div>
           <hr />
